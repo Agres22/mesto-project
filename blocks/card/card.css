@@ -11,14 +11,6 @@
     'topic like';
 }
 
-@media screen and (max-width: 980px) {
-  .card {
-    min-height: 37%;
-  }
-}
 
-@media screen and (max-width: 320px) {
-  .card {
- 
-  }
-}
+
+
