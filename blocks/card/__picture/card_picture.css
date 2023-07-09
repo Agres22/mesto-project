@@ -1,6 +1,11 @@
-.card__picture {
-  max-width: 100%;
-  height: auto;
+.cards__picture {
+  display: block;
+  width: 100%;
+  height: 282px;
+  object-fit: cover;
   border-radius: 10px 10px 0 0;
-  grid-area: picture;
+}
+
+.cards__picture:hover {
+  cursor: pointer;
 }
