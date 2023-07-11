@@ -21,13 +21,13 @@
   opacity: 0.6; 
 }
  
-@media (max-width: 535px) { 
+@media (max-width: 425px) { 
   .popup__button_act_exit { 
     top: -35px; 
     right: 0; 
     max-width: 20px; 
     min-height: 20px; 
-    background-size: cover; 
     background-size: auto;
+    transform: translateY(calc(-100% + -16px));
   } 
 }
