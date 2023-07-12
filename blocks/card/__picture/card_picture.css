@@ -1,6 +1,5 @@
-.card__picture {
+.card_picture {
   width: 100%;
-  /* aspect-ratio: 1;  Не поддерживается Практикумом */
   height: 282px;
   object-fit: cover;
   object-position: center;
@@ -8,6 +7,6 @@
   transition: opacity .3s;
 }
 
-.card__picture:hover {
+.card_picture:hover {
   opacity: .9;
 }
